@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cbd57e;
+  background: #b588ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2995,4 +2995,21 @@ pre .javascript .function {
 }
 hr {
   margin: 0;
+}
+.code pre .line {
+  color: #869194;
+  background: transparent;
+}
+.highlight {
+  margin: 5px 0;
+  border: 1px solid #d6d6d6;
+}
+.highlight .gutter {
+  background-color: #f7f7f7;
+}
+.highlight .gutter pre {
+  background-color: #f7f7f7;
+}
+.highlight .gutter pre .line {
+  background-color: #f7f7f7;
 }
