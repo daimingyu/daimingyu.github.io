@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff75b4;
+  background: #9e2d6c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3012,4 +3012,7 @@ hr {
 }
 .highlight .gutter pre .line {
   background-color: #f7f7f7;
+}
+.site-title {
+  letter-spacing: 3px;
 }
