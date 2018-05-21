@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4bff08;
+  background: #f61f93;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1860,7 +1860,7 @@ pre .javascript .function {
   color: #555;
 }
 .sidebar-nav li:hover {
-  color: #ec6149;
+  color: #0e83cd;
 }
 .page-post-detail .sidebar-nav-toc {
   padding: 0 5px;
@@ -1869,11 +1869,11 @@ pre .javascript .function {
   margin-left: 10px;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #ec6149;
-  border-bottom-color: #ec6149;
+  color: #0e83cd;
+  border-bottom-color: #0e83cd;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #ec6149;
+  color: #0e83cd;
 }
 .sidebar-panel {
   display: none;
@@ -1933,14 +1933,14 @@ pre .javascript .function {
   display: block;
 }
 .post-toc .nav .active > a {
-  color: #ec6149;
-  border-bottom-color: #ec6149;
+  color: #0e83cd;
+  border-bottom-color: #0e83cd;
 }
 .post-toc .nav .active-current > a {
-  color: #ec6149;
+  color: #0e83cd;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #ec6149;
+  color: #0e83cd;
 }
 .footer {
   font-size: 14px;
@@ -2590,7 +2590,7 @@ pre .javascript .function {
   }
 }
 .page-post-detail .sidebar-toggle-line {
-  background: #ec6149;
+  background: #0e83cd;
 }
 .page-post-detail .comments {
   overflow: hidden;
