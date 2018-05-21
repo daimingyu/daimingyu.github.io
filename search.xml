@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[dribbble-登陆与注册界面]]></title>
     <url>%2F%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0%2Fdesign-login%2F</url>
-    <content type="text"><![CDATA[一、前言作品的gif设计地址：dribble作品的网页实现地址：github]]></content>
+    <content type="text"><![CDATA[一、前言dribbble地址 : Deepak Yadav - Sign Up and Login Animated作品的网页实现地址：Dai Mingyu - Dribbble Login 二、文件说明1、文件夹 /font：一个Roboto-Light.ttf字体文件。 /js：一个jquery.js库文件。 /photos：一些icon和背景图片等。 2、index.html重要代码2.1、字体文件引入1234@font-face&#123; font-family:roboto-light; src:url(fonts/Roboto-Light.ttf);&#125; 2.2、placeholder字体颜色123456789101112::-webkit-input-placeholder &#123; /* WebKit browsers */ color:#dddddd;&#125;:-moz-placeholder &#123; /* Mozilla Firefox 4 to 18 */ color: red; &#125; ::-moz-placeholder &#123; /* Mozilla Firefox 19+ */ color: red; &#125; :-ms-input-placeholder &#123; /* Internet Explorer 10+ */ color: red; &#125;]]></content>
       <categories>
         <category>设计实现</category>
       </categories>
