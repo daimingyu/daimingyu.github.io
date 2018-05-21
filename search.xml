@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CSS常见问题]]></title>
+    <url>%2FCSS%2Fcss-issue%2F</url>
+    <content type="text"><![CDATA[一、link和@import的区别 link是XHTML标签，除了加载CSS外，还可以定义RSS等其他事务；@import属于CSS范畴，只能加载CSS。 link引用CSS时，在页面载入时同时加载；@import需要页面网页完全载入以后加载。 link是XHTML标签，无兼容问题；@import是在CSS2.1提出的，低版本的浏览器不支持。 ink支持使用Javascript控制DOM去改变样式；而@import不支持。 二、常用CSS选择器 id选择器（ #myid） 类选择器（.myclassname） 标签选择器（div, h1, p） 相邻选择器（h1 + p） 子选择器（ul &gt; li） 后代选择器（li a） 通配符选择器（ * ） 属性选择器（a[rel = “external”]，input[type=”text”]） 伪类选择器（a: hover, li: nth - child,:first-child,:last-child,:hover,:focus,:active） 多个类选择器 三、CSS规则权重 !important ： infinty 内联样式 ： 1000 ID选择器 ： 100 Class 属性选择器 伪类选择器（：hover） : 10 标签 : 1 通配符 : 0 注意 : 优先级相同时采用就近原则 四、CSS画三角形12345width:0;height:0;border-width: 100px;border-style:solid;border-color:red transparent transparent transparent; 五、CSS标签嵌套5.1、div和p嵌套p标签里是不能嵌套div的，如果嵌套了，则浏览器会解析成如下代码12345678&lt;!-- 嵌套前 --&gt;&lt;p&gt; &lt;div&gt;&lt;/div&gt;&lt;/p&gt;&lt;!-- 浏览器解析后 --&gt;&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt; 5.2、a标签嵌套a标签里是不能嵌套a的，如果嵌套了，则浏览器会解析成如下代码1234567&lt;!-- 嵌套前 --&gt;&lt;a href=&quot;https://www.cctv.com&quot;&gt; &lt;a href=&quot;https://www.cctv.com&quot;&gt;&lt;/a&gt;&lt;/a&gt;&lt;!-- 浏览器解析后 --&gt;&lt;a href=&quot;https://www.cctv.com&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.cctv.com&quot;&gt;&lt;/a&gt; 六、CSS属性继承6.1、所有元素都可以继承的属性 元素可见性：visibility 光标属性：cursor 6.2、内联可以继承的属性 字体系列属性 除text-indent、text-align之外的文本系列属性 6.3、块级可以继承的属性 text-indent text-align 七、display:none与visibility:hidden的区别 display : 隐藏对应的元素但不挤占该元素原来的空间。 visibility : 隐藏对应的元素并且挤占该元素原来的空间。]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+        <tag>面试题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[dribbble-登陆与注册界面]]></title>
     <url>%2F%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0%2Fdesign-login%2F</url>
     <content type="text"><![CDATA[一、前言dribbble地址 : Deepak Yadav - Sign Up and Login Animated作品的网页实现地址：Dai Mingyu - Dribbble Login 二、文件说明1、文件夹 /font：一个Roboto-Light.ttf字体文件。 /js：一个jquery.js库文件。 /photos：一些icon和背景图片等。 2、index.html重要代码2.1、字体文件引入1234@font-face&#123; font-family:roboto-light; src:url(fonts/Roboto-Light.ttf);&#125; 2.2、placeholder字体颜色123456789101112::-webkit-input-placeholder &#123; /* WebKit browsers */ color:#dddddd;&#125;:-moz-placeholder &#123; /* Mozilla Firefox 4 to 18 */ color: red; &#125; ::-moz-placeholder &#123; /* Mozilla Firefox 19+ */ color: red; &#125; :-ms-input-placeholder &#123; /* Internet Explorer 10+ */ color: red; &#125;]]></content>
