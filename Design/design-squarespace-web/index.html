@@ -86,7 +86,9 @@
 <meta property="og:site_name" content="见贤思齐">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://raw.githubusercontent.com/daimingyu/photos/master/camera.jpg">
-<meta property="og:updated_time" content="2018-05-28T03:22:22.246Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/daimingyu/photos/master/squarespace-home.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/daimingyu/photos/master/squarespace-login.jpg">
+<meta property="og:updated_time" content="2018-05-28T03:57:00.633Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Squarespace - Home and Login">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/daimingyu/photos/master/camera.jpg">
@@ -331,7 +333,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-05-28T11:22:22+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-28T11:57:00+08:00">
                 2018-05-28
               </time>
             
@@ -388,6 +390,34 @@
 
       
         <p><img src="https://raw.githubusercontent.com/daimingyu/photos/master/camera.jpg" alt="Alt text"><br><a id="more"></a></p>
+<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>原网站地址 : <a href="https://www.squarespace.com/" target="_blank" rel="noopener">Squarespace</a><br>作品地址： <a href="https://github.com/daimingyu/squarespace_home_login" target="_blank" rel="noopener">Dai Mingyu - Squarespace Home Login</a></p>
+<h2 id="二、文件夹"><a href="#二、文件夹" class="headerlink" title="二、文件夹"></a>二、文件夹</h2><ul>
+<li>/index：存放主页文件夹<ul>
+<li>/index/index.html : 入口文件</li>
+<li>/index/js : js库文件</li>
+<li>/index/css : css库文件</li>
+<li>/index/images : 图片资源</li>
+<li>/index/fonts : 字体资源</li>
+</ul>
+</li>
+<li>/log：存放登陆页文件夹<ul>
+<li>/log/index.html : 入口文件</li>
+<li>/log/js : js库文件</li>
+<li>/log/css : css库文件</li>
+<li>/log/images : 图片资源</li>
+<li>/log/fonts : 字体资源</li>
+</ul>
+</li>
+</ul>
+<h2 id="三、库文件"><a href="#三、库文件" class="headerlink" title="三、库文件"></a>三、库文件</h2><h3 id="一-jquery-easing-js"><a href="#一-jquery-easing-js" class="headerlink" title="(一)jquery.easing.js"></a>(一)jquery.easing.js</h3><h4 id="1、从CDN引入jquery-easing-js文件"><a href="#1、从CDN引入jquery-easing-js文件" class="headerlink" title="1、从CDN引入jquery.easing.js文件"></a>1、从CDN引入jquery.easing.js文件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&apos;text/javascript&apos; src=&apos;https://cdn.bootcss.com/jquery-easing/1.4.1/jquery.easing.min.js&apos;&gt;&lt;/scrip&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="2、启用插件"><a href="#2、启用插件" class="headerlink" title="2、启用插件"></a>2、启用插件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(&apos;.aa&apos;).animate(&#123;&apos;width&apos;:&apos;600&apos;&#125; , 1000 , &apos;easeInOutCirc&apos;);</span><br></pre></td></tr></table></figure>
+<h4 id="3、可以使用的参数"><a href="#3、可以使用的参数" class="headerlink" title="3、可以使用的参数"></a>3、可以使用的参数</h4><p>参考链接： <a href="http://www.runoob.com/jqueryui/api-easings.html" target="_blank" rel="noopener">jquery ui api - easings</a></p>
+<h3 id="二-animate-css"><a href="#二-animate-css" class="headerlink" title="(二)animate.css"></a>(二)animate.css</h3><h4 id="1、从CDN引入animate-css文件"><a href="#1、从CDN引入animate-css文件" class="headerlink" title="1、从CDN引入animate.css文件"></a>1、从CDN引入animate.css文件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css&quot;&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="2、给指定的元素添加基础class-animated"><a href="#2、给指定的元素添加基础class-animated" class="headerlink" title="2、给指定的元素添加基础class animated"></a>2、给指定的元素添加基础class animated</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;item animated&quot;&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="3、结合jQuery给指定的元素添加动画class"><a href="#3、结合jQuery给指定的元素添加动画class" class="headerlink" title="3、结合jQuery给指定的元素添加动画class"></a>3、结合jQuery给指定的元素添加动画class</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var oDiv = $(&apos;.item&apos;);</span><br><span class="line">oDiv.addClass(&apos;bounce&apos;);</span><br></pre></td></tr></table></figure>
+<h4 id="4、可以使用的动画"><a href="#4、可以使用的动画" class="headerlink" title="4、可以使用的动画"></a>4、可以使用的动画</h4><p>参考链接： <a href="https://daneden.github.io/animate.css/" target="_blank" rel="noopener">animate.css</a></p>
+<h2 id="四、效果预览"><a href="#四、效果预览" class="headerlink" title="四、效果预览"></a>四、效果预览</h2><h3 id="一-Home页"><a href="#一-Home页" class="headerlink" title="(一)Home页"></a>(一)Home页</h3><p><img src="https://raw.githubusercontent.com/daimingyu/photos/master/squarespace-home.jpg" alt="Alt text"></p>
+<h3 id="二-Login页"><a href="#二-Login页" class="headerlink" title="(二)Login页"></a>(二)Login页</h3><p><img src="https://raw.githubusercontent.com/daimingyu/photos/master/squarespace-login.jpg" alt="Alt text"></p>
 
       
     </div>
@@ -482,8 +512,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -547,6 +586,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、前言"><span class="nav-number">1.</span> <span class="nav-text">一、前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、文件夹"><span class="nav-number">2.</span> <span class="nav-text">二、文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、库文件"><span class="nav-number">3.</span> <span class="nav-text">三、库文件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-jquery-easing-js"><span class="nav-number">3.1.</span> <span class="nav-text">(一)jquery.easing.js</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、从CDN引入jquery-easing-js文件"><span class="nav-number">3.1.1.</span> <span class="nav-text">1、从CDN引入jquery.easing.js文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、启用插件"><span class="nav-number">3.1.2.</span> <span class="nav-text">2、启用插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、可以使用的参数"><span class="nav-number">3.1.3.</span> <span class="nav-text">3、可以使用的参数</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-animate-css"><span class="nav-number">3.2.</span> <span class="nav-text">(二)animate.css</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、从CDN引入animate-css文件"><span class="nav-number">3.2.1.</span> <span class="nav-text">1、从CDN引入animate.css文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、给指定的元素添加基础class-animated"><span class="nav-number">3.2.2.</span> <span class="nav-text">2、给指定的元素添加基础class animated</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、结合jQuery给指定的元素添加动画class"><span class="nav-number">3.2.3.</span> <span class="nav-text">3、结合jQuery给指定的元素添加动画class</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、可以使用的动画"><span class="nav-number">3.2.4.</span> <span class="nav-text">4、可以使用的动画</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、效果预览"><span class="nav-number">4.</span> <span class="nav-text">四、效果预览</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-Home页"><span class="nav-number">4.1.</span> <span class="nav-text">(一)Home页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-Login页"><span class="nav-number">4.2.</span> <span class="nav-text">(二)Login页</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
