@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[iconfont-字体图标]]></title>
+    <url>%2FCSS%2Fcss-iconfont%2F</url>
+    <content type="text"><![CDATA[一、选择icon(一)打开阿里巴巴iconfont 寻找自己想要使用的icon 并点击添加到购物车 (二)打开购物车 并点击添加至项目 如果没有项目可以创建一个 (三)打开项目 并点击查看在线链接 复制引用代码 二、使用icon(一)将复制的代码放到你的stye.css文件里，并加上 http: 前缀12345678@font-face &#123; font-family: &apos;iconfont&apos;; /* project id 746807 */ src: url(&apos;http://at.alicdn.com/t/font_746807_o0xx0uv1z1.eot&apos;); src: url(&apos;http://at.alicdn.com/t/font_746807_o0xx0uv1z1.eot?#iefix&apos;) format(&apos;embedded-opentype&apos;), url(&apos;http://at.alicdn.com/t/font_746807_o0xx0uv1z1.woff&apos;) format(&apos;woff&apos;), url(&apos;http://at.alicdn.com/t/font_746807_o0xx0uv1z1.ttf&apos;) format(&apos;truetype&apos;), url(&apos;http://at.alicdn.com/t/font_746807_o0xx0uv1z1.svg#iconfont&apos;) format(&apos;svg&apos;);&#125; (二)html结构1&lt;i class=&quot;iconfont icon-home&quot;&gt;&lt;/i&gt; (三)设置iconfont样式1234567.iconfont &#123; font-family: iconfont!important; font-size: 16px; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale&#125; (四)设置icon-home样式123icon-home:before &#123; content: &apos;\e602&apos;; //内容的就是icon代码的后四位&#125; 三、注意事项如果你复制完代码后又重新选择了几个icon，网站会提示你(新icon来袭 点击更新代码),一定不要忘记点击更新代码。]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+        <tag>字体图标</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[作家笔记]]></title>
     <url>%2FLiterature%2Fliterature-a-writer-notebook%2F</url>
     <content type="text"><![CDATA[一、作家笔记-毛姆 人心有多大，悲哀伤痛就有多大。 有些人，你和他们打招呼说：“最近怎么样？”他们会说“很好啊，谢谢你”。如果他们认为你真在乎他们好不好，那就真的他自以为是了。一个人最难做到的事，是意识到自己并不是生活的中心，而只是在边缘。 二、往后余生-马良往后余生风雪是你平淡是你清贫也是你荣华是你心底温柔是你目光所至也是你]]></content>
